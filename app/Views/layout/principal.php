@@ -149,7 +149,7 @@ Licence URI: https://www.os-templates.com/template-terms
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="<?= base_url('/scripts/jquery.min.js')  ?>"></script>
     <script src="<?= base_url('/jquery.backtotop.js') ?>"></script>
-    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <script src="<?= base_url('scripts/jquery.mobilemenu.js') ?>""></script>
 </body>
 
 </html>
