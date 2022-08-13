@@ -40,4 +40,17 @@
     </section>
 </div>
 
+<script>
+    function activar(){
+        
+       let nosotros= document.getElementById("nosotros");
+        nosotros.classList.add("active");
+      
+    }
+
+
+    window.onload=activar();
+</script>
+
 <?= $this->endSection() ?>
+

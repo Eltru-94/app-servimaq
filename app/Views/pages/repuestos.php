@@ -14,45 +14,45 @@
           </div>
           <ul class="nospace group team">
             <li class="one_quarter first">
-              <figure><a class="imgover" href="#"><img src="images/demo/gallery/01.png" alt=""></a>
+              <figure><a  href="#"><img src="images/demo/gallery/07.png" alt=""></a>
                 <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
             <li class="one_quarter">
-              <figure><a class="imgover" href="#"><img src="images/demo/gallery/02.png" alt=""></a>
+              <figure><a  href="#"><img src="images/demo/gallery/06.png" alt=""></a>
                 <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
             <li class="one_quarter">
-              <figure><a class="imgover" href="#"><img src="images/demo/gallery/03.png" alt=""></a>
+              <figure><a  href="#"><img src="images/demo/gallery/04.png" alt=""></a>
                 <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
             <li class="one_quarter">
-              <figure><a class="imgover" href="#"><img src="images/test/imagen_01.png" alt=""></a>
-                <figcaption><strong class="heading">D. Doe</strong> <em>Job Type Here</em></figcaption>
+            <figure><a  href="#"><img src="images/demo/gallery/03.png" alt=""></a>
+                <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
           </ul>
     <br>
           <ul class="nospace group team">
             <li class="one_quarter first">
-              <figure><a class="imgover" href="#"><img src="images/demo/gallery/01.png" alt=""></a>
+              <figure><a  href="#"><img src="images/demo/gallery/03.png" alt=""></a>
                 <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
             <li class="one_quarter">
-              <figure><a class="imgover" href="#"><img src="images/demo/gallery/02.png" alt=""></a>
+              <figure><a  href="#"><img src="images/demo/gallery/04.png" alt=""></a>
                 <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
             <li class="one_quarter">
-              <figure><a class="imgover" href="#"><img src="images/demo/gallery/05.png" alt=""></a>
+              <figure><a  href="#"><img src="images/demo/gallery/06.png" alt=""></a>
                 <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
             <li class="one_quarter">
-              <figure><a class="imgover" href="#"><img src="images/demo/gallery/09.png" alt=""></a>
+              <figure><a  href="#"><img src="images/demo/gallery/06.png" alt=""></a>
                 <figcaption><strong class="heading">Modelo</strong> <em>descripcion</em></figcaption>
               </figure>
             </li>
@@ -61,5 +61,17 @@
           <!-- ################################################################################################ -->
         </section>
       </div>
+
+      <script>
+    function activar(){
+        
+       let nosotros= document.getElementById("productos");
+        nosotros.classList.add("active");
+      
+    }
+
+
+    window.onload=activar();
+</script>
 
 <?= $this->endSection()?>

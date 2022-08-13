@@ -44,16 +44,16 @@ Licence URI: https://www.os-templates.com/template-terms
                     <div class="col-md-8 col-sm-12 col-lg-8">
                         <ul class="clear">
 
-                            <li class="active"><a href="/">Inicio</a></li>
-                            <li class="no-active"><a href="/nosotros">Nosotros</a></li>
-                            <li class="no-active drop"><a href="#">Productos</a>
+                            <li id="inicio"><a href="/">Inicio</a></li>
+                            <li id="nosotros" ><a href="/nosotros">Nosotros</a></li>
+                            <li id="productos" class="no-active drop"><a href="#">Productos</a>
                                 <ul>
-                                    <li><a href="/maquinas">Maquinas</a></li>
+                                    <li id="maquinas"><a href="/maquinas">Maquinas</a></li>
 
-                                    <li><a href="/respuestos">Repuestos</a></li>
+                                    <li id="respuestos"><a href="/respuestos">Repuestos</a></li>
                                 </ul>
                             </li>
-                            <li class="no-active"><a href="/sugerencias">Sugerencias</a></li>
+                            <li id="sugerencias"><a href="/sugerencias">Sugerencias</a></li>
 
 
                         </ul>

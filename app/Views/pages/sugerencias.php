@@ -4,7 +4,7 @@
 <?= $this->section('contenido') ?>
 
 <div class="wrapper row3">
-    <main class="hoc container clear">
+    <main class="">
         <!-- main body -->
         <!-- ################################################################################################ -->
 
@@ -13,12 +13,17 @@
                 <section id="callback" class="hoc clear">
                     <!-- ################################################################################################ -->
                     <div>
-                        <h6 class="heading">Torquent per conubia</h6>
-                        <p class="btmspace-30">Sed non tortor class aptent taciti sociosqu ad litora nostra per inceptos himenaeos vivamus vitae.</p>
+                        <h6 class="heading">Sugerencias</h6>
+
                         <form method="post" action="#">
                             <fieldset>
-                                <input type="text" value="" placeholder="Name">
+                                <input type="text" value="" placeholder="Nombre">
                                 <input type="text" value="" placeholder="Email">
+                                <input type="text" placeholder="Asunto"></input>
+
+                            
+<br>
+
                                 <button type="submit" value="submit">Submit</button>
                             </fieldset>
                         </form>
@@ -29,9 +34,19 @@
             <!-- ################################################################################################ -->
 
         </div>
-        <!-- ################################################################################################ -->
-        <!-- / main body -->
-        <div class="clear"></div>
+
     </main>
 </div>
+
+<script>
+    function activar() {
+
+        let nosotros = document.getElementById("sugerencias");
+        nosotros.classList.add("active");
+
+    }
+
+
+    window.onload = activar();
+</script>
 <?= $this->endSection() ?>
