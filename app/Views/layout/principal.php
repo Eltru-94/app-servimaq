@@ -17,18 +17,20 @@ Licence URI: https://www.os-templates.com/template-terms
 
     <link rel="stylesheet" href="<?= base_url('/styles/layout.css') ?>">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </head>
 <style>
-    .responsive {
-        width: 50%;
-        height: auto;
-    }
+.responsive {
+    width: 50%;
+    height: auto;
+}
 </style>
 
 <body id="top">
 
-    <div class="bgded overlay" style="background-image:url('<?= base_url('images/demo/backgrounds/fondocuadros.png') ?>');">
+    <div class="bgded overlay" style="background-image:url('<?= base_url('images/demo/backgrounds/01.png') ?>');">
 
 
 
@@ -37,7 +39,8 @@ Licence URI: https://www.os-templates.com/template-terms
                 <div class="row">
                     <div class="col-md-2 col-sm-12 col-lg-2">
                         <br>
-                        <img src="<?= base_url('images/demo/backgrounds/logo.png') ?>" style="width: 300px; height: 100px;">
+                        <img src="<?= base_url('images/demo/backgrounds/logo.png') ?>"
+                            style="width: 300px; height: 100px;">
                         <br>
                         <hr>
                     </div>
@@ -45,18 +48,42 @@ Licence URI: https://www.os-templates.com/template-terms
                         <ul class="clear">
 
                             <li id="inicio"><a href="/">Inicio</a></li>
-                            <li id="nosotros" ><a href="/nosotros">Nosotros</a></li>
-                            <li id="productos" class="no-active drop"><a href="#">Productos</a>
-                                <ul>
-                                    <li id="maquinas"><a href="/maquinas">Maquinas</a></li>
+                            <li id="nosotros"><a href="/nosotros">Nosotros</a></li>
 
-                                    <li id="respuestos"><a href="/respuestos">Repuestos</a></li>
+                           
+                            <li class="no-active drop"><a href="">Productos</a>
+                                <ul>
+                                    <li class="drop"><a href="#">Maquinas</a>
+                                        <ul>
+                                            <li><a href="/productos/maquina/recta">Recta</a></li>
+                                            <li><a href="/productos/maquina/overlok">Overlock</a></li>
+                                            <li><a href="/productos/maquina/recubridora">Recubridora</a></li>
+                                            <li><a href="/productos/maquina/especiales">Especiales</a></li>
+                                            <li><a href="/productos/maquina/domesticas">Domesticas</a></li>
+                                            <li><a href="/productos/maquina/cortadoras">Cortdoras</a></li>
+                                            <li><a href="/productos/maquina/bordadoras">Bordadoras</a></li>
+                                        </ul>
+                                    <li class="drop"><a href="#">Repuestos</a>
+                                        <ul>
+                                            <li><a href="/productos/repuestos/recta">Recta</a></li>
+                                            <li><a href="/productos/repuestos/overlok">Overlock</a></li>
+                                            <li><a href="/productos/repuestos/recubridora">Recubridora</a></li>
+                                            <li><a href="/productos/repuestos/especiales">Especiales</a></li>
+                                            <li><a href="/productos/repuestos/domesticas">Domesticas</a></li>
+                                            <li><a href="/productos/repuestos/cortadoras">Cortdoras</a></li>
+                                            <li><a href="/productos/repuestos/bordadoras">Bordadoras</a></li>
+                                        </ul>
+
+
+                                    </li>
+
+                                    <li class="drop"><a href="/productos/repuestos/insumos">Insumos</a>
+                                    </li>
+
+
                                 </ul>
                             </li>
-                            <li id="sugerencias"><a href="/sugerencias">Sugerencias</a></li>
-
-
-                        </ul>
+                            <li id="sugerencias"><a href="/sugerencias">CONTACTOS</a></li>
                     </div>
                     <div class="col-md-2">
 
@@ -67,7 +94,7 @@ Licence URI: https://www.os-templates.com/template-terms
             </nav>
         </div>
 
-        <?= $this->renderSection('navegacion')?>
+
 
         <?= $this->renderSection('contenido')?>
 
@@ -82,7 +109,9 @@ Licence URI: https://www.os-templates.com/template-terms
                 <!-- ################################################################################################ -->
                 <div class="one_quarter first">
                     <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-                        <iframe style="height: 350px; width: 450px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9574.969804193002!2d-78.2729798443904!3d0.23080736946416894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a1550f5c074b7%3A0xbeb06f4f58958f93!2sServimaq%20Importador%20Textil!5e0!3m2!1ses!2sec!4v1660200878958!5m2!1ses!2sec" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe style="height: 350px; width: 450px;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9574.969804193002!2d-78.2729798443904!3d0.23080736946416894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a1550f5c074b7%3A0xbeb06f4f58958f93!2sServimaq%20Importador%20Textil!5e0!3m2!1ses!2sec!4v1660200878958!5m2!1ses!2sec"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="one_quarter">
@@ -92,12 +121,14 @@ Licence URI: https://www.os-templates.com/template-terms
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"> Sucursales</i>
                             <hr>
-                            <small> <i class="fas fa-home"></i> &nbsp;Av. Quito entre Sucre y Bolivar diagonal al Cuerpo de
+                            <small> <i class="fas fa-home"></i> &nbsp;Av. Quito entre Sucre y Bolivar diagonal al Cuerpo
+                                de
                                 Bomberos.</small>
                             <hr>
                             <small><i class="fas fa-home"></i> &nbsp; Atuntaqui, Av. General Enriquez y Espejo.</small>
                             <hr>
-                            <small><i class="fas fa-home"></i> &nbsp; Ibarra, Calle Sanchez y Cifuentes y Velasco.</small>
+                            <small><i class="fas fa-home"></i> &nbsp; Ibarra, Calle Sanchez y Cifuentes y
+                                Velasco.</small>
                             <hr>
                         </li>
 
@@ -136,7 +167,8 @@ Licence URI: https://www.os-templates.com/template-terms
             © 2021 Copyright:
             <a class="text-reset fw-bold" href="https://mdbootstrap.com/">alexskate19@gmail.com</a>
 
-            <p class="fl_right">Importadora <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">DNS</a></p>
+            <p class="fl_right">Importadora <a target="_blank" href="https://www.os-templates.com/"
+                    title="Free Website Templates">DNS</a></p>
 
         </div>
 
@@ -145,10 +177,14 @@ Licence URI: https://www.os-templates.com/template-terms
 
     <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
     <!-- JAVASCRIPTS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
     <script src="<?= base_url('/scripts/jquery.min.js')  ?>"></script>
-    <script src="<?= base_url('/jquery.backtotop.js') ?>"></script>
+  
     <script src="<?= base_url('scripts/jquery.mobilemenu.js') ?>""></script>
 </body>
 

@@ -47,6 +47,25 @@ $routes->get('/maquinas', 'Home::maquinas');
 $routes->get('/respuestos', 'Home::respuestos');
 $routes->get('/sugerencias', 'Home::sugerencias');
 
+$routes->get('/productos/maquina/recta', 'Home::maquinas_recta');
+$routes->get('/productos/maquina/overlok', 'Home::maquinas_overlok');
+$routes->get('/productos/maquina/recubridora', 'Home::maquinas_recubridora');
+$routes->get('/productos/maquina/especiales', 'Home::maquinas_especiales');
+$routes->get('/productos/maquina/domesticas', 'Home::maquinas_domesticas');
+$routes->get('/productos/maquina/bordadoras', 'Home::maquinas_bordadoras');
+$routes->get('/productos/maquina/cortadoras', 'Home::maquinas_cortadoras');
+
+
+$routes->get('/productos/repuestos/recta', 'Home::repuestos_recta');
+$routes->get('/productos/repuestos/overlok', 'Home::repuestos_overlok');
+$routes->get('/productos/repuestos/recubridora', 'Home::repuestos_recubridora');
+$routes->get('/productos/repuestos/especiales', 'Home::repuestos_especiales');
+$routes->get('/productos/repuestos/domesticas', 'Home::repuestos_domesticas');
+$routes->get('/productos/repuestos/bordadoras', 'Home::repuestos_bordadoras');
+$routes->get('/productos/repuestos/cortadoras', 'Home::repuestos_cortadoras');
+$routes->get('/productos/repuestos/insumos', 'Home::insumos');
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
