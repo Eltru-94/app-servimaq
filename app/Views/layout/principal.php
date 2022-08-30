@@ -30,7 +30,7 @@ Licence URI: https://www.os-templates.com/template-terms
 
 <body id="top">
 
-    <div class="bgded overlay" style="background-image:url('<?= base_url('images/demo/backgrounds/01.png') ?>');">
+    <div class="bgded overlay" style="background-image:url('<?= base_url('images/demo/backgrounds/fondocuadros.png') ?>');">
 
 
 
@@ -51,7 +51,7 @@ Licence URI: https://www.os-templates.com/template-terms
                             <li id="nosotros"><a href="/nosotros">Nosotros</a></li>
 
                            
-                            <li class="no-active drop"><a href="">Productos</a>
+                            <li class="no-active drop"><a href="#">Productos</a>
                                 <ul>
                                     <li class="drop"><a href="#">Maquinas</a>
                                         <ul>
